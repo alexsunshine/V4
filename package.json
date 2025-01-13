@@ -1,0 +1,16 @@
+{
+  "name": "visualizador-sonido-color",
+  "version": "1.0.0",
+  "description": "Aplicación de visualización de sonido a color",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "tone": "^14.8.27"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
